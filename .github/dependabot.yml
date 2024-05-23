@@ -9,3 +9,11 @@ updates:
     directory: "/110_helm_provider/" # Location of package manifests
     schedule:
       interval: "weekly"
+  - package-ecosystem: "terraform" # See documentation for possible values
+    directory: "/08_aks_app_gateway/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "terraform" # See documentation for possible values
+    directory: "/13_storage_blob/" # Location of package manifests
+    schedule:
+      interval: "weekly"
